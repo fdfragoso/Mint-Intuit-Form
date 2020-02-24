@@ -30,6 +30,7 @@ a{
     font-size: 12px;
 
 }
+
 .header-btn {
      background-color: #0077c5;
      height: 32px;
@@ -40,14 +41,43 @@ a{
      cursor: pointer;
     
 }
-    .header-padlock img {
-        width: 10px;
+
+.header-padlock img {
+    width: 10px;
     height: 13px;
-    }
+}
 
 
 /* WORKING ON LOGO */
+.main-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.leaf-icon{
+
+}
+
+.leaf-text{
+
+}
+
+.qb-icon{
+
+}
+
+.qb-text{
+
+}
+
+.turbotax-icon{
+
+}
+
+.turbotax-text{
+    
+}
 
 /* WORKING ON FORM */
 
