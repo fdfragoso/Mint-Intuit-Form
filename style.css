@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* WORKING ON HEADER */
+
+.header {
+    display: flex;
+    padding: 10px 30px;
+    justify-content: flex-end;
+
+}
+
+.header-text {
+    margin-right: 20px;
+}
+.header-title {
+    font-size: 12px;
+    color: #505050;
+}
+
+.header-link a {
+    font-size: 12px;
+
+}
+.header-btn {
+     background-color: #0077c5;
+     height: 32px;
+     padding: 0 20px;
+     border-radius: 4px;
+     border: 1px solid #4c4c4c;
+     color: white;
+     cursor: pointer;
+    
+}
+    .header-padlock img {
+        width: 10px;
+    height: 13px;
+    }
+
+
+/* WORKING ON LOGO */
+
+
+/* WORKING ON FORM */
+
+.form-btn {
+    background-color: #0077c5;
+    height: 44px;
+    width: 318px;
+    padding: 6 12px;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 30px;
+   
+}
