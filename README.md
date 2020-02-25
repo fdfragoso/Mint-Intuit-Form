@@ -3,7 +3,7 @@ Clone of mint intuit signup form for study purpose
 
 > This is an assigment for Microverse HTML and CSS course. The goal is to clone the Mint intuit form page with static functionability.
 
-![screenshot](./img/screenshot.png)
+![screenshot](./IMG/print.png)
 
 Additional description about the project and its features.
 
@@ -15,7 +15,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo](https://kevinalvesdev.github.io/youtube-clone/)
+[Live Demo](https://raw.githack.com/fdfragoso/Mint-Intuit-Form/features/index.html)
 
 ## Getting Started
 
@@ -61,7 +61,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - The Odin Project
-- Youtube
+- Intuit, a brand from ProConnect and Mint
 
 ## 📝 License
 
