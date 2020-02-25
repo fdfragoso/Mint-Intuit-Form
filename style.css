@@ -80,21 +80,25 @@ small {
     width: 23px;
     height: 23px;
     margin-right: 4px;
+    cursor: pointer;
 }
 
 .leaf-text{
     width: 37px;
     height: 20px;
     margin-right: 9px;
+    cursor: pointer;
 }
 .qb-text{
     width: fit-content;
     margin-right: 9px;
+    cursor: pointer;
 }
 
 .turbotax-text{
     width: fit-content;
     margin-right: 9px;
+    cursor: pointer;
 }
 
 /* USING SPRITE SHEETS */
