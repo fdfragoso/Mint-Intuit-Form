@@ -1,11 +1,14 @@
----
 linters:
     # Configured linters
+    rubocop:
+      display_cop_names: true
     flake8:
     eslint:
       config: './eslint.config'
     csslint:
-      ignore: 'box-model,ids'
+    stylelint:
+    rubocop:
+    display_cop_names: true
 
 files:
     ignore:
@@ -13,10 +16,11 @@ files:
         - 'webroot/bower_components/*'
         - 'IMG/*'
 
-review:
+#review:
     # Don't use 'failure' build status when
     # a pull request contains style errors.
-    fail_on_comments: false
+    #fail_on_comments: false
 
-fixers:
-    enable: true
+#fixers:
+    #enable: true
+
