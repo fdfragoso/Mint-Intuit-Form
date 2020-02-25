@@ -3,10 +3,23 @@
     margin: 0;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eceef1;
 }
 
 a{
     text-decoration: none;
+}
+path {
+    width: 100%;
+}
+small {
+    padding: 5px 0px;
+    font-size: 10px;
+    color: #444444;
 }
 
 /* WORKING ON HEADER */
@@ -55,31 +68,60 @@ a{
     align-items: center;
 }
 
-.leaf-icon{
+.service-icons{
+    width: 23px;
+    height: 23px;
+    margin-right: 4px;
 
 }
 
 .leaf-text{
-
+    width: 37px;
+    height: 20px;
+    margin-right: 9px;
 }
-
-.qb-icon{
-
-}
-
 .qb-text{
-
-}
-
-.turbotax-icon{
-
+    width: fit-content;
+    margin-right: 9px;
 }
 
 .turbotax-text{
-    
+    width: fit-content;
+    margin-right: 9px;
 }
 
 /* WORKING ON FORM */
+
+.main-form {
+    border: 2px solid #c7c7c7;
+    border-radius: 3px;
+    background-color: white;
+    color: #404040;
+    font-size: 14px;
+    padding: 30px;
+    width: 380px;
+    margin: 0 auto;
+}
+.form-header-title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+.form-fields input {
+    border: 1px solid #c1c5c8;
+    border-radius: 2px;
+    width: 320px;
+    height: 34px;
+    padding: 0px 6px 0px 8px;
+}
+.form-fields input:focus{
+    
+}
+.form-fields label {
+    width: 320px;
+    height: 30px;
+    padding-bottom: 6px;
+}
 
 .form-btn {
     background-color: #0077c5;
