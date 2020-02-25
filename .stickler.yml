@@ -1,0 +1,22 @@
+---
+linters:
+    # Configured linters
+    flake8:
+    eslint:
+      config: './eslint.config'
+    csslint:
+      ignore: 'box-model,ids'
+
+files:
+    ignore:
+        - 'src/generated/*'
+        - 'webroot/bower_components/*'
+        - 'IMG/*'
+
+review:
+    # Don't use 'failure' build status when
+    # a pull request contains style errors.
+    fail_on_comments: false
+
+fixers:
+    enable: true
