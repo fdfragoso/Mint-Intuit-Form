@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "animate.css": "^3.7.2"
+  },
+  "devDependencies": {
+    "stylelint": "^13.2.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
